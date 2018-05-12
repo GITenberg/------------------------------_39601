@@ -1,0 +1,38 @@
+_repo: '------------------------------_39601'
+_version: 0.1.0
+alternative_title: Gitanjali. Greek
+contributor:
+  translator:
+    agent_name: Trikoglides, K.
+    aliases:
+    - Τρικογλίδης, Κώστας
+    - Trikoglidis, Kostas
+    gutenberg_agent_id: '40102'
+    url: http://www.gutenberg.org/2009/agents/40102
+covers:
+- cover_type: archival
+  image_path: 39601-h/images/cover.jpg
+creator:
+  author:
+    agent_name: Tagore, Rabindranath
+    birthdate: 1861
+    deathdate: 1941
+    gutenberg_agent_id: '942'
+    url: http://www.gutenberg.org/2009/agents/942
+    wikipedia: http://en.wikipedia.org/wiki/Rabindranath_Tagore
+description: ''
+gutenberg_issued: '2012-05-03'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '39601'
+language: el
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Indic poetry -- Translations into Greek'
+- !lcsh 'Tagore, Rabindranath, 1861-1941 -- Translations into Greek'
+- !lcsh 'Bengali poetry -- Translations into Greek'
+- !lcc 'PK'
+title: Λυρικά αφιερώματα (Γιταντζάλι)
+url: http://www.gutenberg.org/ebooks/39601
