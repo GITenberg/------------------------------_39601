@@ -1,205 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
 >
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
-  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/39601">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/39601/pg39601.cover.small.jpg">
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39601.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420338</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncea88b2278d743e78e932f5ebf101419">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-03T19:34:45.093702</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2045</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/39601/pg39601.cover.medium.jpg">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11888</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N68e5520a40b64450ab6fd16e9df8848e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-03T19:34:45.196616</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39601.kindle.noimages">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfee326c172b64a65b788fc9c98036453">
+          <rdf:Description rdf:nodeID="N99e512d6119f4aa1a463238c6e49c27a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-03T19:34:39.135025</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">414243</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T05:03:59.387411</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>Λυρικά αφιερώματα (Γιταντζάλι)</dcterms:title>
-    <pgterms:marc901>file:///public/vhost/g/gutenberg/html/files/39601/39601-h/images/cover.jpg</pgterms:marc901>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/942">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1941</pgterms:deathdate>
-        <pgterms:name>Tagore, Rabindranath</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1861</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Rabindranath_Tagore"/>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39601.plucker">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4b779d31fb754219813667d3173badd5">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197514</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-03T19:34:45.005785</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N4edb7623f53a4706bc8a0442dc721bf0">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na53591436c54469ebe1e6ea615f65dfe">
+        <rdf:value>Tagore, Rabindranath, 1861-1941 -- Translations into Greek</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
-    </dcterms:type>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <marcrel:trl>
-      <pgterms:agent rdf:about="2009/agents/40102">
-        <pgterms:alias>Τρικογλίδης, Κώστας</pgterms:alias>
-        <pgterms:name>Trikoglidis, Kostas</pgterms:name>
-      </pgterms:agent>
-    </marcrel:trl>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</pgterms:downloads>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/39601/39601-h/39601-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191360</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd5988b608e0e400fb8ca67034adbe9ef">
+          <rdf:Description rdf:nodeID="Nc34e7ec5634b44cfb5ddcbc531e873c2">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191360</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-02T19:47:52</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39601.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T05:03:58.621428</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153342</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4f1e532349ad4e7eaec75e2596a8cfbe">
+          <rdf:Description rdf:nodeID="Ncea5f412731343b29ccbc81db9a0dfe6">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153367</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-03T19:34:36.810465</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39601.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T05:04:00.318392</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13173</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7c222ed36b814b0f948f9c437919d0b8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/39601/39601-0.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-02T19:47:50</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">171918</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndb08df26f98d4a4fa3f25e0f794eed0e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N02e261b6de074872b8b8e4de368e3e1e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-02T19:47:50</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N9c8d7026f9e64f6791c3d98666e55bd1">
+        <rdf:value>PK</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Na0a8a5ea576140dbba821d8abf026073">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">el</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-03</dcterms:issued>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N1512a2028f154b5997c884e2f2552470">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/39601/pg39601.cover.small.jpg">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N613263b3ba3f436d834d52f1fee4d003">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2040</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T05:04:00.210403</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/40102">
+        <pgterms:name>Trikoglides, K.</pgterms:name>
+        <pgterms:alias>Trikoglidis, Kostas</pgterms:alias>
+        <pgterms:alias>Τρικογλίδης, Κώστας</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:alternative>Gitanjali. Greek</dcterms:alternative>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/39601/pg39601.cover.medium.jpg">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11877</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T05:04:00.241394</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6b96879464b74c6a9f01b2e5d559532b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2ea61e5b08f74d6088a55f1fa85aa14f">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Indic poetry -- Translations into Greek</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39601.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T05:04:00.176408</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420326</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb6b4beade9f747daa6f2cb0914d84882">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/39601/39601-h.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-02T19:47:54</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140900</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N220e2dcbbeb94193bb27c9835d21d5c2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="N8d20379e60a4451b84549139e5d72daf">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf8b2685d85ab4563bb4a2b295f4a5696">
+          <rdf:Description rdf:nodeID="N3d64335df8ba43389d8c438f18f7a8de">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140900</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-02T19:47:54</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nfaea8daa9fb543e191a312b46d525d5c">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">el</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/942">
+        <pgterms:name>Tagore, Rabindranath</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1941</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Rabindranath_Tagore"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1861</pgterms:birthdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <pgterms:marc901>file:///public/vhost/g/gutenberg/html/files/39601/39601-h/images/cover.jpg</pgterms:marc901>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39601.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T05:03:58.415438</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2400beaea7894103986d894922c17037">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153342</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/39601/39601-0.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50585</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-02T19:47:54</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4638b50864a64dcba0e56a24f302e126">
+          <rdf:Description rdf:nodeID="Ne1e5e46e8e31460985e606a0942789ba">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3b77f4c0da064c3093ec21f83257ae3a">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Nde56aa2b16294afeb5de74391600da8a">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-02T19:47:54</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39601.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153382</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-03T19:34:37.231102</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N33430e0052ca4defb0f2544e5d4cd3f2">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-03</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39601.kindle.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-03T19:34:41.338859</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/39601"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N147d7b3a6b1a46d1b40d1803e21f7e00">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">414282</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50585</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:alternative>Gitanjali. Greek</dcterms:alternative>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nfc49e579f96346dabb59aa01916486fb">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Bengali poetry -- Translations into Greek</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:title>Λυρικά αφιερώματα (Γιταντζάλι)</dcterms:title>
   </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Rabindranath_Tagore">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
